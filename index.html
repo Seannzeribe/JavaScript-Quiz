@@ -8,16 +8,29 @@
     <title>JavaScript Quiz</title>
 </head>
 <body>
-    <section id="welcome">
+
+    <header class="header">
+        <button class="view-highscores" id="highScores">View High Scores</button>
+        <p>Time: <span id="timer">0</span></p>
+    </header>
+
+
+    <section id="welcome" class="welcome">
+
         <h1>JavaScript Quiz!</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut suscipit asperiores reprehenderit nostrum ab delectus distinctio enim sit rem magni, modi alias voluptatem mollitia assumenda architecto id doloremque quae? Vero ea saepe qui dolorum facere.</p>
-        <button id="start">Start</button>
+        <p> This is a 4 question quiz that will test you on different web design concepts that you have learned so far!</p>
+        <button id="start" class="btn">Start</button>
     </section>
 
+    
     <main id="quiz">
         <h1 id="question"></h1>
         <ul id="answers"></ul>
     </main>
+
+    <div class="highscore-buttons" id="highscore-buttons">
+        
+    </div>
 
 
     <script src="script.js"></script>
